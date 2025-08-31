@@ -1,0 +1,93 @@
+body {
+  background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Custom Buttons */
+.btn-custom {
+  background-color: #28a745;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 0.8rem;
+  width: 100%;
+  transition: 0.3s;
+}
+.btn-custom:hover {
+  background-color: #218838;
+}
+
+/* Forms Section */
+.forms-section {
+  margin-top: 2rem;
+}
+.service-form {
+  display: none; /* Hidden by default (can toggle with JS later) */
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  text-align: left;
+}
+.service-form h3 {
+  color: #28a745;
+  margin-bottom: 1rem;
+}
+/* Common style */
+.btn-custom {
+  color: white;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 0.8rem;
+  width: 100%;
+  transition: 0.3s;
+}
+
+/* Individual service colors */
+#send-money-btn {
+  background-color: #28a745; /* green */
+}
+#send-money-btn:hover {
+  background-color: #218838;
+}
+
+#mobile-recharge-btn {
+  background-color: #007bff; /* blue */
+}
+#mobile-recharge-btn:hover {
+  background-color: #0056b3;
+}
+
+#cash-out-btn {
+  background-color: #fd7e14; /* orange */
+}
+#cash-out-btn:hover {
+  background-color: #e8590c;
+}
+
+#add-money-btn {
+  background-color: #6f42c1; /* purple */
+}
+#add-money-btn:hover {
+  background-color: #5936a2;
+}
+
+#pay-bill-btn {
+  background-color: #20c997; /* teal */
+}
+#pay-bill-btn:hover {
+  background-color: #159a80;
+}
+
+#loan-btn {
+  background-color: #dc3545; /* red */
+}
+#loan-btn:hover {
+  background-color: #a71d2a;
+}
